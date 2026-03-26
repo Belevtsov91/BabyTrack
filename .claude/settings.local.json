@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(npx vite:*)",
+      "Bash(node -e \"const {execSync}=require\\(''child_process''\\);try{const r=execSync\\(''npx tsc --noEmit --skipLibCheck 2>&1'',{timeout:60000}\\);console.log\\(r.toString\\(\\).slice\\(0,3000\\)\\);}catch\\(e\\){console.log\\(e.stdout?.toString\\(\\).slice\\(0,3000\\)||e.message.slice\\(0,2000\\)\\);}\")",
+      "Bash(node_modules/.bin/tsc --noEmit --skipLibCheck)",
+      "Bash(node_modules/.bin/vite build:*)",
+      "Bash(node fix-insert.cjs)",
+      "Bash(grep -r \"baseURL\\\\|API_URL\\\\|SERVER\\\\|BACKEND\" c:Disk.DprojectForFunBabyTrackersrc --include=*.ts --include=*.tsx)",
+      "Bash(mkdir -p \"c:/Disk.D/projectForFun/BabyTracker/docs/screenshots/app\")",
+      "Bash(mkdir -p \"c:/Disk.D/projectForFun/BabyTracker/docs/screenshots/original\")",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_click"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - banner [ref=e8]:
+        - button [ref=e9]:
+          - img [ref=e10]
+        - generic [ref=e12]:
+          - heading "Температура" [level=1] [ref=e13]
+          - paragraph [ref=e14]: За последние 4 дня
+      - generic [ref=e16]:
+        - img [ref=e18]
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: Последнее измерение
+          - paragraph [ref=e22]: —
+          - paragraph [ref=e23]: Нет сохраненных измерений
+      - generic [ref=e25]:
+        - heading "График температуры" [level=2] [ref=e26]
+        - generic [ref=e27]: Добавьте первое измерение в журнале температуры.
+      - generic [ref=e28]:
+        - heading "История" [level=2] [ref=e29]
+        - generic [ref=e30]: Пока нет сохраненных измерений.
+      - button [ref=e31]:
+        - img [ref=e32]
+    - navigation [ref=e33]:
+      - link "Главная" [ref=e34] [cursor=pointer]:
+        - /url: /
+        - img [ref=e35]
+        - generic [ref=e38]: Главная
+      - link "Статистика" [ref=e39] [cursor=pointer]:
+        - /url: /stats
+        - img [ref=e40]
+        - generic [ref=e42]: Статистика
+      - link [ref=e43] [cursor=pointer]:
+        - /url: /add
+        - img [ref=e45]
+      - link "Чат" [ref=e46] [cursor=pointer]:
+        - /url: /chat
+        - img [ref=e47]
+        - generic [ref=e49]: Чат
+      - link "Настройки" [ref=e50] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e51]
+        - generic [ref=e54]: Настройки
+```

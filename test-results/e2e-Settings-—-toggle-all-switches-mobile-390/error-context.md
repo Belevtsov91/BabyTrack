@@ -1,0 +1,81 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - generic [ref=e8]:
+          - button [ref=e9]:
+            - img [ref=e10]
+          - generic [ref=e12]: 🛁
+          - heading "Купание" [level=1] [ref=e13]
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e17]:
+            - generic [ref=e18]:
+              - generic [ref=e19]:
+                - img [ref=e20]
+                - generic [ref=e22]: Дата
+              - textbox [ref=e23]: 2026-03-25
+            - generic [ref=e25]:
+              - generic [ref=e26]:
+                - img [ref=e27]
+                - generic [ref=e30]: Время
+              - textbox [ref=e31]: 13:31
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: Количество
+            - generic [ref=e34]:
+              - button "−" [ref=e35]
+              - generic [ref=e36]: 0мин
+              - button "+" [ref=e37]
+            - generic [ref=e38]:
+              - button "+5" [ref=e39]
+              - button "+10" [ref=e40]
+              - button "+20" [ref=e41]
+              - button "+50" [ref=e42]
+          - generic [ref=e43]:
+            - paragraph [ref=e44]: Заметка
+            - textbox "Добавьте заметку..." [ref=e45]
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: 📊 Статистика
+              - generic [ref=e50]:
+                - button "7д" [ref=e51]
+                - button "30д" [ref=e52]
+                - button "3м" [ref=e53]
+            - paragraph [ref=e55]: Нет данных за период
+          - generic [ref=e56]:
+            - button "Фото" [ref=e57]:
+              - img [ref=e58]
+              - generic [ref=e61]: Фото
+            - button "Календарь" [ref=e62]:
+              - img [ref=e63]
+              - generic [ref=e65]: Календарь
+              - img [ref=e66]
+      - button "Сохранить" [ref=e69]
+    - navigation [ref=e70]:
+      - link "Главная" [ref=e71] [cursor=pointer]:
+        - /url: /
+        - img [ref=e72]
+        - generic [ref=e75]: Главная
+      - link "Статистика" [ref=e76] [cursor=pointer]:
+        - /url: /stats
+        - img [ref=e77]
+        - generic [ref=e79]: Статистика
+      - link [ref=e80] [cursor=pointer]:
+        - /url: /add
+        - img [ref=e82]
+      - link "Чат" [ref=e83] [cursor=pointer]:
+        - /url: /chat
+        - img [ref=e84]
+        - generic [ref=e86]: Чат
+      - link "Настройки" [ref=e87] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e88]
+        - generic [ref=e91]: Настройки
+```
